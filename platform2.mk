@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-SONY_ROOT := device/sony/shinano-common/rootdir
+SONY_ROOT := device/sony/rhine-common/rootdir
 
 # ANT+
 PRODUCT_COPY_FILES += \
@@ -26,3 +26,7 @@ PRODUCT_PACKAGES += \
 # Sensors config
 PRODUCT_COPY_FILES += \
     $(SONY_ROOT)/system/etc/sec_config:system/etc/sec_config
+
+# Bluetooth
+PRODUCT_PROPERTY_OVERRIDES += \
+    qcom.bluetooth.soc=smd
