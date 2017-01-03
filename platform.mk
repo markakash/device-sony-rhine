@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Platform path
-PLATFORM_COMMON_PATH := device/sony/rhine
+PLATFORM_COMMON_PATH := device/sony/rhine-common
 
 $(call inherit-product, device/sony/common/common.mk)
 

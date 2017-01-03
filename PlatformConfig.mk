@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Platform path
-PLATFORM_COMMON_PATH := device/sony/rhine
+PLATFORM_COMMON_PATH := device/sony/rhine-common
 
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
