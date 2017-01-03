@@ -15,7 +15,7 @@
 # Platform path
 PLATFORM_COMMON_PATH := device/sony/rhine-common
 
-$(call inherit-product, device/sony/common/common.mk)
+$(call inherit-product, device/sony/common-aosp/common.mk)
 
 SOMC_PLATFORM := rhine
 
